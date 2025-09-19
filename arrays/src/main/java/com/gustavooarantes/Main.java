@@ -29,7 +29,7 @@ public class Main {
 		int[] arr = new int[5];
 
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = i + 1;
+			arr[i] = i + 1; // element insertion
 		}
 
 		System.out.println(Arrays.toString(arr));
