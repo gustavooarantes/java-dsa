@@ -12,5 +12,15 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		int[] oneDimensionalArray = new int[5];
+
+		for (int i = 0; i < oneDimensionalArray.length; i++) {
+			oneDimensionalArray[i] = i + 1;
+			System.out.print(oneDimensionalArray[i]);
+			System.out.print(" ");
+		}
+
+		System.out.println();
+
 	}
 }
